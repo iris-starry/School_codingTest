@@ -4,7 +4,7 @@
 main() {
 	int a;
 	printf("입력 값= ");
-	scanf("%d", &a);
+	scanf_s("%d", &a);
 	if (a > 0)
 		printf("1번줄\n");
 	printf("2번줄\n");
