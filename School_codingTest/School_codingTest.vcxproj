@@ -151,7 +151,9 @@
     <ClCompile Include="08.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="09.c" />
+    <ClCompile Include="09.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="10.c" />
     <ClCompile Include="11.c" />
   </ItemGroup>
